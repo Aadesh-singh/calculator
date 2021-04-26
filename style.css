@@ -1,0 +1,43 @@
+/* body{
+    background-color: black;
+    color: white;
+} */
+#outerCal{
+    height: 400px;
+    width: 300px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 33%;
+    border: 2px solid white;
+    border-radius: 14px;
+    padding: 10px;
+}
+#screen {
+    margin-right: 12px;
+    height: auto;
+    width: inherit;
+    font-size: 3.7rem;
+    text-align: right;
+    border-radius: 14px;
+    padding: 10px;
+}
+#grid {
+    display: grid;
+    grid-template-columns: 73px 73px 73px 77px;
+    font-size: 2rem;
+    position: absolute;
+    bottom: 30px;
+    grid-gap: 2px;
+}
+.orange{
+    background-color: orange;
+    border-radius: 20px;
+    text-align: center;
+}
+.gray{
+    background-color: gray;
+    border-radius: 20px;
+    text-align: center;
+}
