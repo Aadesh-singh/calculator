@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="display">
+        <p id="output">0</p>
+    </div>
+    <!--First row-->
+    <div class="first-row">
+        <button id="r1-1" onclick="forClear()" style="width: 138px;">C</button>
+        <button id="r1-2" onclick="perc()">%</button>
+        <button id="r1-3" value="/" onclick="forDisplay('/')">/</button>
+    </div>
+    <!--second Row-->
+    <div class="second-row">
+        <button id="r2-1" value="7" onclick="forDisplay('7')">7</button>
+        <button id="r2-2" vlaue="8" onclick="forDisplay('8')">8</button>
+        <button id="r2-3" value="9" onclick="forDisplay('9')">9</button>
+        <button id="r2-4" value="X" onclick="forDisplay('*')">X</button>
+    </div>
+    <!--Third row r3-->
+    <div class="third-row">
+        <button id="r3-1" value="4" onclick="forDisplay('4')" >4</button>
+        <button id="r3-2" value="5" onclick="forDisplay('5')">5</button>
+        <button id="r3-3" value="6" onclick="forDisplay('6')">6</button>
+        <button id="r3-4" value="-" onclick="forDisplay('-')">-</button>
+    </div>
+    <!--Fourth row r4-->
+    <div class="fourth-row">
+        <button id="r4-1" value="1" onclick="forDisplay('1')">1</button>
+        <button id="r4-2" value="2" onclick="forDisplay('2')">2</button>
+        <button id="r4-3" value="3" onclick="forDisplay('3')">3</button>
+        <button id="r4-4" value="+" onclick="forDisplay('+')">+</button>
+    </div>
+    <!--fifth-row r5-->
+    <div class="fifth-row">
+        <button id="r5-1" value="0" onclick="forDisplay('0')" style="width: 138px; border-bottom-left-radius: 10px;">0</button>
+        <button id="r5-2" value="." onclick="forDisplay('.')">.</button>
+        <button id="r5-3" value="=" onclick="solve()" style="border-bottom-right-radius: 10px;">=</button>
+    </div>
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
