@@ -40,3 +40,4 @@ function invert() {
     val *= -1;
     document.getElementById('display').innerHTML = val;
 }
+
