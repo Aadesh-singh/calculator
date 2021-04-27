@@ -14,7 +14,11 @@
     border-radius: 14px;
     padding: 10px;
 }
-#screen {
+header h1 sub {
+    font-size: 15px;
+    float: right;
+}
+#display {
     margin-right: 12px;
     height: auto;
     width: inherit;
@@ -30,6 +34,14 @@
     position: absolute;
     bottom: 30px;
     grid-gap: 2px;
+    cursor: pointer;
+    
+}
+.grid1 {
+    width: 70px;
+}
+.grid1:hover {
+    opacity: 0.8;
 }
 .orange{
     background-color: orange;

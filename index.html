@@ -6,37 +6,39 @@
     </head>
     <body>
         <header>
-            <h1>Calculate your daily wage!!</h1>
+            <h1>Calculate The Infinity!! <sub>~Aadesh singh</sub></h1>
         </header>
         <section id="outerCal">
-            <div id="screen"></div>
+            <div id="display">
+                0
+            </div>
             <div id="grid">
-                <div id="ac" class="orange" >AC</div>
-                <div id="sign" class="orange" >+/-</div>
-                <div id="mod" class="orange">%</div>
-                <div id="plus" class="orange" >+</div>    
-                <div id="seven" class="gray">7</div>    
-                <div id="eight" class="gray">8</div>    
-                <div id="nine" class="gray">9</div>    
-                <div id="plus" class="orange" >x</div>    
-                <div id="plus" class="gray">2</div>    
-                <div id="plus" class="gray">6</div>    
-                <div id="plus" class="gray">5</div>    
-                <div id="plus" class="orange" >-</div>    
-                <div id="plus" class="gray">1</div>    
-                <div id="plus" class="gray">2</div>    
-                <div id="plus" class="gray">3</div>    
-                <div id="plus" class="orange" >sqrt</div>    
-                <div id="plus" class="gray">C</div>    
-                <div id="plus" class="gray">0</div>    
-                <div id="plus" class="gray">.</div>    
-                <div id="plus" class="orange" >=</div>    
+                <div id="r1-1" class="orange grid1" value="ac" onclick="forclear()">AC</div>
+                <div id="r1-2" class="orange grid1" value="*(-1)" onclick="invert()" >+/-</div>
+                <div id="r1-3" class="orange grid1" value="%" onclick="mod()">%</div>
+                <div id="plus" class="orange grid1" value="+" onclick="forDisplay('+')">+</div>    
+                <div id="seven" class="gray grid1" value="7" onclick="forDisplay('7')">7</div>    
+                <div id="eight" class="gray grid1" value="8" onclick="forDisplay('8')">8</div>    
+                <div id="nine" class="gray grid1" value="9" onclick="forDisplay('9')"> 9</div>    
+                <div id="multiply" class="orange grid1" value="x" onclick="forDisplay('*')" >x</div>    
+                <div id="four" class="gray grid1" value="4" onclick="forDisplay('4')">4</div>    
+                <div id="five" class="gray grid1" value="5" onclick="forDisplay('5')">5</div>    
+                <div id="six" class="gray grid1" value="6" onclick="forDisplay('6')">6</div>    
+                <div id="minus" class="orange grid1" value="-" onclick="forDisplay('-')" >-</div>    
+                <div id="one" class="gray grid1" value="1" onclick="forDisplay('1')">1</div>    
+                <div id="two" class="gray grid1" value="2" onclick="forDisplay('2')">2</div>    
+                <div id="three" class="gray grid1" value="3" onclick="forDisplay('3')">3</div>    
+                <div id="sqrt" class="orange grid1"  onclick="sq();" >sqrt</div>    
+                <!-- <div id="clear" class="gray grid1" value="c">C</div>     -->
+                <div id="zero" class="gray grid1" value="0" onclick="forDisplay('0')">0</div>    
+                <div id="period" class="gray grid1"  value="." onclick="forDisplay('.')">.</div>    
+                <div id="equal" class="orange grid1" style="width: 144px;" value="=" onclick="solve()" >=</div>    
             </div>
         </section>
         <section id="grid">
         </section>
 
 
-        <script src="./index.js"></script>
+        <script type="application/javascript" src="./index.js"></script>
     </body>
 </html>
